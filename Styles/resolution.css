@@ -1,0 +1,246 @@
+/* common shared styles */
+
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+
+.btn-primary {
+    border-radius: 5px;
+    background-color: #FFF;
+    border: 0;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+
+
+/* header related styles */
+
+.header {
+    background-image: url('../images/banner/banner3.png');
+    border: 1px solid #000;
+    /* height: 100vh;  
+       I didn't give cause the picture's bottom gets cropped */
+    background-size: cover;
+}
+
+
+.banner-content {
+    text-align: right;
+    padding: 215px 200px 165px 800px;
+}
+
+
+.banner-title {
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+/* failure section styles */
+
+.failure-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.failure-text-content {
+    margin-top: 110px;
+    margin-right: 150px;
+}
+
+
+.failure-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+.failure-description {
+    margin-top: 24px;
+}
+
+.failure-item {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.check-photo {
+    margin-right: 10px;
+}
+
+.failure-list {
+    margin-top: 16px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.failure-description,
+.failure-item {
+    color: #444343;
+    font-size: 16px; 
+    font-weight: 400;
+}
+
+
+
+/* plan section styles */
+
+.plan-title {
+    margin-top: 100px;
+    margin-bottom: 70px;
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.plan-container>ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 180px;
+}
+
+
+.plan-container img {
+    margin-bottom: 20px;
+}
+
+
+.plan-container h2 {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.plan-container p {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.watch {
+    background-image: url('../images/watch.png');
+    border-radius: 8px;
+}
+
+.text-picture {
+    margin: 130px 188px 100px;
+    position: relative;
+}
+
+
+.title-on-picture {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+
+}
+
+
+#btn-on-picture {
+    position: absolute;
+    top: 180px;
+    left: 50px;
+}
+
+
+/* footer styles  */
+
+footer {
+    display: flex;
+    gap: 100px;
+    background: #151414;
+    padding: 100px 200px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+
+.footer-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.footer-description,
+.footer-info {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-description {
+    margin-bottom: 25px;
+}
+
+.footer-info {
+    margin-bottom: 15px;
+}
+
+.social-links {
+    margin-top: 30px;
+}
+
+.social-links a {
+    margin-right: 15px;
+}
+
+.footer-second-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact input {
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px 60px 20px 20px;
+    color: #F3F3F3;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #151414;
+    border: 1px solid white;
+}
+
+#footer-btn {
+    border-radius: 8px;
+    background-color: #005FAC;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 30px;
+    border: none;
+    cursor: pointer;
+}
